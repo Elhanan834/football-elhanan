@@ -1,0 +1,123 @@
+/* הגדרות לעמוד כלליות בקשר לעיצוב */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* רקע לבאדי.. */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background-color: #121212;
+    background-image: url('cybervid.webm');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+/* עיצוב סרגל עליון */
+.top-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+.top-nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.top-nav a:hover {
+    color: #ffffff;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: green;
+}
+.field {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    background-color: #3e8e41;
+    border: 2px solid white;
+}
+.player {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50%;
+    animation: player1 0.5s infinite alternate ease-in-out;
+}
+.player2 {
+    right: 0;
+    background-color: red;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation: player2 0.5s infinite alternate ease-in-out;
+}
+.ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    animation: passBall 2s infinite alternate ease-in-out;
+}
+.goal {
+    position: absolute;
+    width: 60px;
+    height: 100px;
+    border: 3px solid white;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.goal-left {
+    left: -70px;
+}
+.goal-right {
+    right: -70px;
+}
+@keyframes passBall {
+    from {
+        left: 10px;
+    }
+    to {
+        left: 370px;
+    }
+}
+@keyframes player1 {
+    from {
+        top: 10px;
+    }
+    to {
+        bottom: 20px;
+    }
+}
+@keyframes player2 {
+    from {
+        bottom: 20px;
+    }
+    to {
+        top: 10px;
+    }
+}

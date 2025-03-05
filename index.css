@@ -1,0 +1,70 @@
+/* עיצוב כללי */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0b6623;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* עיצוב סרגל למעלה */
+.top-nav {
+    background: #1c1c1c;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-bottom: 5px solid #ffd700;
+}
+.top-nav a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.top-nav a:hover {
+    color: #ffffff;
+}
+
+/* Welcome  */
+.wellcome {
+    margin-top: 30px;
+    padding: 20px;
+}
+.wellcome h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+/* Logo  */
+.gavea {
+    margin-top: 20px;
+}
+.gavea-logo img {
+    border-radius: 50%;
+    border: 3px solid #ffd700;
+}
+.peska {
+    font-size: 45px;
+    color: #1c1c1c;
+}
+/* סרגל תחתון */
+.down-nav {
+    margin-top: 300px;
+    background: #1c1c1c;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-top: 5px solid #ffd700;
+}
+.down-nav a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.down-nav a:hover {
+    color: #ffffff;
+}

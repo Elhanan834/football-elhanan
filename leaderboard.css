@@ -1,0 +1,69 @@
+/* הגדרות אתר */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* רקע כללי */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background-color: #121212;
+    background-image: url('cybervid.webm');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+/* עיצוב סרגל עליון */
+.top-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+.top-nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.top-nav a:hover {
+    color: #ffffff;
+}
+h1 {
+    color: #df00c1;
+    padding: 10%;
+}
+.tavla {
+    margin-top: 300px;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+}
+.lmala {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 5px solid #df00c1;
+    padding: 40px;
+    color: #ffffff;
+}
+th {
+    background-color: #df00c1;
+    color: white;
+}
+

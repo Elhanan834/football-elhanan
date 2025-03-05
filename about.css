@@ -1,0 +1,55 @@
+/* עיצוב כללי */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0b6623;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* עיצוב של הסרגל העליון */
+.top-nav {
+    background: #1c1c1c;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-bottom: 5px solid #ffd700;
+}
+.top-nav a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.top-nav a:hover {
+    color: #ffffff;
+}
+.peska {
+    font-size: 45px;
+    padding: auto;
+    border-radius: auto;
+    border-style: dotted;
+    border-color: #440000;
+    color: #1c1c1c;
+}
+/* Down Navigation Bar */
+.down-nav {
+    margin-top: 300px;
+    background: #1c1c1c;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-top: 5px solid #ffd700;
+}
+.down-nav a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.down-nav a:hover {
+    color: #ff4500;
+}
